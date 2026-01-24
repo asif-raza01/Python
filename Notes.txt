@@ -1,0 +1,1 @@
+in python NONE is used for variable declaration.
