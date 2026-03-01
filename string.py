@@ -40,3 +40,5 @@ My_text="""This is a multi-line string.
 It can span multiple lines without the need for escape characters.
 This is useful for writing long strings or documentation."""
 print(My_text) #This will print the multi-line string as it is, preserving the line breaks.
+print(my_string[-4:4]) #why this is empty? because the starting index is greater than the ending index, and since the ending index is exclusive, it does not include the character at index 4. Therefore, it returns an empty string.
+#internaaly python makes -4 as 9 because the length of the string is 13, so -4 is equivalent to 13 - 4 = 9. Therefore, the slicing my_string[-4:4] is equivalent to my_string[9:4], which results in an empty string since the starting index is greater than the ending index.
