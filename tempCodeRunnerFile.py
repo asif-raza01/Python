@@ -1,0 +1,1 @@
+print('Navin' in tupB) #This will print the result of the previous line
